@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <!--<TextView android:layout_gravity="center_horizontal" android:gravity="center"
+        android:drawableLeft="@drawable/gps" android:textColor="#A3CA4F"  android:text=" GPS Test" android:textSize="26dp" android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>-->
+
+    <View style="@style/caption_line" />
+
+    <View style="@style/line_space" />
+    <!--<Button android:drawableLeft="@drawable/enable" android:text="  GPS " android:id="@+id/gps_btnEnable" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>-->
+    <TextView
+        android:id="@+id/gps_txt_latitude"
+        android:layout_width="wrap_content"
+        android:text="Latitude :"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Longtitude :"
+        android:id="@+id/gps_txt_longtitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Altitude :"
+        android:id="@+id/gps_txt_altitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Fix time :"
+        android:id="@+id/gps_txt_fixtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <SurfaceView
+        android:id="@+id/gps_SurfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"></SurfaceView>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNMEA"
+        android:layout_weight="0.36" />
+
+</LinearLayout>

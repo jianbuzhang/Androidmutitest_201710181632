@@ -1,0 +1,1502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mfg-settings>
+    <touch-panel>
+        <fail_condition
+            time_out="10"
+            fail_count="10" />
+        <top
+            tolerance="30"
+            start_x="30"
+            end_x="30"
+            point_number="10"
+            check_seq="false" />
+        <bottom
+            tolerance="30"
+            start_x="30"
+            end_x="30"
+            point_number="10"
+            check_seq="false" />
+        <left
+            tolerance="30"
+            start_y="30"
+            end_y="30"
+            point_number="10"
+            check_seq="false" />
+        <right
+            tolerance="30"
+            start_y="30"
+            end_y="30"
+            point_number="10"
+            check_seq="false" />
+        <x1
+            width="30"
+            start_x="30"
+            start_y="30"
+            end_x="30"
+            end_y="30"
+            point_number="10"
+            check_seq="false" />
+        <x2
+            width="30"
+            start_x="30"
+            start_y="30"
+            end_x="30"
+            end_y="30"
+            point_number="10"
+            check_seq="false" />
+    </touch-panel>
+
+    <CN75AN5>
+        <time_out value="60" />
+        <top
+            width="30"
+            height="30"></top>
+        <left
+            width="30"
+            height="30"></left>
+        <center
+            width="30"
+            height="30">
+
+            <!--<row>-->
+            <!--<button caption="?" code="29" width="60" height="60"/>-->
+            <!--<button caption="POWER" code="105" width="60" height="60"/>-->
+            <!--</row>-->
+            <row>
+                <button
+                    caption="︼"
+                    code="61"
+                    width="60"
+                    height="60" />
+                <button
+                    caption="＜"
+                    code="105"
+                    width="60"
+                    height="60" />
+                <button
+                    caption="^"
+                    code="103"
+                    width="60"
+                    height="60" />
+                <!--<button caption="SCANNER"  code="105" width="60" height="60"/>-->
+                <button
+                    caption="v"
+                    code="108"
+                    width="60"
+                    height="60" />
+                <button
+                    caption="＞"
+                    code="106"
+                    width="60"
+                    height="60" />
+                <!--<button caption="︻" code="29" width="60" height="60"/>-->
+            </row>
+            <row>
+                <button
+                    caption="+︼"
+                    code="59"
+                    width="60"
+                    height="60" />
+                <button
+                    caption="1"
+                    code="2"
+                    width="90"
+                    height="60" />
+                <button
+                    caption="2"
+                    code="3"
+                    width="90"
+                    height="60" />
+                <button
+                    caption="3"
+                    code="4"
+                    width="90"
+                    height="60" />
+                <button
+                    caption="+3"
+                    code="32"
+                    width="60"
+                    height="60" />
+            </row>
+            <row>
+                <button
+                    caption="⇥"
+                    code="15"
+                    width="80"
+                    height="60" />
+                <button
+                    caption="4"
+                    code="5"
+                    width="90"
+                    height="60" />
+                <button
+                    caption="5"
+                    code="6"
+                    width="90"
+                    height="60" />
+                <button
+                    caption="6"
+                    code="7"
+                    width="90"
+                    height="60" />
+                <button
+                    caption="←"
+                    code="14"
+                    width="80"
+                    height="60" />
+            </row>
+            <row>
+                <button
+                    caption="Esc"
+                    code="1"
+                    width="80"
+                    height="80" />
+                <button
+                    caption="7"
+                    code="8"
+                    width="90"
+                    height="60" />
+                <button
+                    caption="8"
+                    code="9"
+                    width="90"
+                    height="60" />
+                <button
+                    caption="9"
+                    code="10"
+                    width="90"
+                    height="60" />
+                <button
+                    caption="Enter"
+                    code="28"
+                    width="100"
+                    height="80" />
+            </row>
+            <row>
+                <button
+                    caption="*"
+                    code="66"
+                    width="55"
+                    height="60" />
+                <button
+                    caption="-"
+                    code="12"
+                    width="55"
+                    height="60" />
+                <button
+                    caption="0"
+                    code="11"
+                    width="90"
+                    height="60" />
+                <button
+                    caption="."
+                    code="52"
+                    width="55"
+                    height="60" />
+                <button
+                    caption="#"
+                    code="67"
+                    width="55"
+                    height="60" />
+            </row>
+            <row>
+                <button
+                    caption="RightUp"
+                    code="64"
+                    width="100"
+                    height="60" />
+                <button
+                    caption="RightDown"
+                    code="65"
+                    width="100"
+                    height="60" />
+                <button
+                    caption="LeftUp"
+                    code="68"
+                    width="100"
+                    height="60" />
+                <!--<button caption="LeftDown" code="52" width="55" height="60"/>-->
+            </row>
+        </center>
+        <right
+            width="30"
+            height="30"></right>
+    </CN75AN5>
+
+    <CN75AQ5>
+        <time_out value="60" />
+        <top
+            width="30"
+            height="30"></top>
+        <left
+            width="30"
+            height="30"></left>
+        <center
+            width="30"
+            height="30">
+            <!--<row>-->
+            <!--<button caption="?" code="29" width="50" height="55"/>-->
+            <!--<button caption="POWER"   -->
+            <!--</row>-->
+            <row>
+                <button
+                    caption="︼"
+                    code="61"
+                    width="60"
+                    height="55" />
+                <button
+                    caption="＜"
+                    code="105"
+                    width="60"
+                    height="55" />
+                <button
+                    caption="^"
+                    code="103"
+                    width="60"
+                    height="55" />
+                <!--<button caption="SCANNER" -->
+                <button
+                    caption="v"
+                    code="108"
+                    width="60"
+                    height="55" />
+                <button
+                    caption="＞"
+                    code="106"
+                    width="60"
+                    height="55" />
+                <!--<button caption="︻" code="29" width="50" height="55"/>-->
+            </row>
+            <row>
+                <button
+                    caption="Q"
+                    code="16"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="W"
+                    code="17"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="E"
+                    code="18"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="R"
+                    code="19"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="T"
+                    code="20"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="Y"
+                    code="21"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="U"
+                    code="22"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="I"
+                    code="23"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="O"
+                    code="24"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="P"
+                    code="25"
+                    width="50"
+                    height="55" />
+            </row>
+            <row>
+                <button
+                    caption="A"
+                    code="30"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="S"
+                    code="31"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="D"
+                    code="32"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="F"
+                    code="33"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="G"
+                    code="34"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="H"
+                    code="35"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="J"
+                    code="36"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="K"
+                    code="37"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="L"
+                    code="38"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="⇥"
+                    code="15"
+                    width="50"
+                    height="55" />
+            </row>
+            <row>
+                <button
+                    caption="+B"
+                    code="8"
+                    width="65"
+                    height="55" />
+                <button
+                    caption="Z"
+                    code="44"
+                    width="48"
+                    height="55" />
+                <button
+                    caption="X"
+                    code="45"
+                    width="48"
+                    height="55" />
+                <button
+                    caption="C"
+                    code="46"
+                    width="48"
+                    height="55" />
+                <button
+                    caption="V"
+                    code="47"
+                    width="48"
+                    height="55" />
+                <button
+                    caption="B"
+                    code="48"
+                    width="48"
+                    height="55" />
+                <button
+                    caption="N"
+                    code="49"
+                    width="48"
+                    height="55" />
+                <button
+                    caption="M"
+                    code="50"
+                    width="48"
+                    height="55" />
+                <button
+                    caption="."
+                    code="52"
+                    width="48"
+                    height="55" />
+                <button
+                    caption="⇧"
+                    code="58"
+                    width="48"
+                    height="60" />
+            </row>
+            <row>
+                <button
+                    caption="Esc"
+                    code="1"
+                    width="70"
+                    height="55" />
+                <button
+                    caption="←"
+                    code="14"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="Space"
+                    code="57"
+                    width="100"
+                    height="55" />
+                <button
+                    caption=","
+                    code="51"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="Enter"
+                    code="28"
+                    width="100"
+                    height="55" />
+            </row>
+            <row>
+                <button
+                    caption="RightUp"
+                    code="64"
+                    width="120"
+                    height="60" />
+                <button
+                    caption="RightDown"
+                    code="65"
+                    width="120"
+                    height="60" />
+                <button
+                    caption="LeftUp"
+                    code="68"
+                    width="100"
+                    height="60" />
+                <!--<button caption="LeftDown" code="52" width="55" height="60"/>-->
+            </row>
+        </center>
+        <right
+            width="30"
+            height="30"></right>
+    </CN75AQ5>
+
+    <CN75EN7>
+        <time_out value="60" />
+        <top
+            width="30"
+            height="30"></top>
+        <left
+            width="30"
+            height="30"></left>
+        <center
+            width="30"
+            height="30">
+            <!--<row> -->
+            <!--<button caption="?" code="29" width="50" height="55"/> -->
+            <!--<button caption="POWER"   -->
+            <!--</row> -->
+            <row>
+                <button
+                    caption="︼"
+                    code="61"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="＜"
+                    code="105"
+                    width="60"
+                    height="55" />
+                <button
+                    caption="^"
+                    code="103"
+                    width="60"
+                    height="55" />
+                <!--<button caption="SCANNER" -->
+                <button
+                    caption="v"
+                    code="108"
+                    width="60"
+                    height="55" />
+                <button
+                    caption="＞"
+                    code="106"
+                    width="60"
+                    height="55" />
+                <!--<button caption="︻" code="29" width="50" height="55"/> -->
+            </row>
+            <row>
+                <button
+                    caption="F1"
+                    code="59"
+                    width="100"
+                    height="55" />
+                <!--<button caption="F2" code="60" width="100" height="55"/>-->
+                <button
+                    caption="F3"
+                    code="61"
+                    width="100"
+                    height="55" />
+                <!--<button caption="F4" code="62" width="100" height="55"/>-->
+                <button
+                    caption="F5"
+                    code="63"
+                    width="100"
+                    height="55" />
+            </row>
+            <row>
+                <button
+                    caption="+F1"
+                    code="64"
+                    width="100"
+                    height="55" />
+                <button
+                    caption="1"
+                    code="2"
+                    width="100"
+                    height="55" />
+                <button
+                    caption="2"
+                    code="3"
+                    width="100"
+                    height="55" />
+                <button
+                    caption="3"
+                    code="4"
+                    width="100"
+                    height="55" />
+                <button
+                    caption="+3"
+                    code="32"
+                    width="100"
+                    height="55" />
+            </row>
+            <row>
+                <button
+                    caption="⇥"
+                    code="15"
+                    width="70"
+                    height="55" />
+                <button
+                    caption="4"
+                    code="5"
+                    width="100"
+                    height="55" />
+                <button
+                    caption="5"
+                    code="6"
+                    width="100"
+                    height="55" />
+                <button
+                    caption="6"
+                    code="7"
+                    width="100"
+                    height="55" />
+                <button
+                    caption="←"
+                    code="14"
+                    width="70"
+                    height="55" />
+            </row>
+            <row>
+                <button
+                    caption="Esc"
+                    code="1"
+                    width="70"
+                    height="80" />
+                <button
+                    caption="7"
+                    code="8"
+                    width="100"
+                    height="55" />
+                <button
+                    caption="8"
+                    code="9"
+                    width="100"
+                    height="55" />
+                <button
+                    caption="9"
+                    code="10"
+                    width="100"
+                    height="55" />
+                <button
+                    caption="ENTER"
+                    code="28"
+                    width="70"
+                    height="80" />
+            </row>
+            <row>
+                <button
+                    caption="*"
+                    code="66"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="-"
+                    code="12"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="0"
+                    code="11"
+                    width="100"
+                    height="55" />
+                <button
+                    caption="."
+                    code="52"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="#"
+                    code="67"
+                    width="50"
+                    height="55" />
+            </row>
+            <row>
+                <button
+                    caption="RightUp"
+                    code="64"
+                    width="120"
+                    height="60" />
+                <button
+                    caption="RightDown"
+                    code="65"
+                    width="120"
+                    height="60" />
+                <button
+                    caption="LeftUp"
+                    code="68"
+                    width="90"
+                    height="60" />
+                <!--<button caption="LeftDown" code="52" width="120" height="60"/>-->
+            </row>
+        </center>
+        <right
+            width="30"
+            height="30"></right>
+    </CN75EN7>
+
+    <CN75EQ6>
+        <time_out value="60" />
+        <top
+            width="30"
+            height="30"></top>
+        <left
+            width="30"
+            height="30"></left>
+        <center
+            width="30"
+            height="30">
+
+            <!--<row>-->
+            <!--<button caption="?" code="29" width="50" height="55"/> -->
+            <!--<button caption="POWER"   -->
+            <!--</row>-->
+            <row>
+                <button
+                    caption="︼"
+                    code="61"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="＜"
+                    code="105"
+                    width="60"
+                    height="55" />
+                <button
+                    caption="^"
+                    code="103"
+                    width="60"
+                    height="55" />
+                <!--<button caption="SCANNER" -->
+                <button
+                    caption="v"
+                    code="108"
+                    width="60"
+                    height="55" />
+                <button
+                    caption="＞"
+                    code="106"
+                    width="60"
+                    height="55" />
+                <!--<button caption="︻" code="29" width="50" height="55"/>-->
+            </row>
+            <row>
+                <button
+                    caption="Q"
+                    code="16"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="W"
+                    code="17"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="E"
+                    code="18"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="R"
+                    code="19"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="T"
+                    code="20"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="Y"
+                    code="21"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="U"
+                    code="22"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="I"
+                    code="23"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="O"
+                    code="24"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="P"
+                    code="25"
+                    width="50"
+                    height="55" />
+            </row>
+            <row>
+                <button
+                    caption="A"
+                    code="30"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="S"
+                    code="31"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="D"
+                    code="32"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="F"
+                    code="33"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="G"
+                    code="34"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="H"
+                    code="35"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="J"
+                    code="36"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="K"
+                    code="37"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="L"
+                    code="38"
+                    width="50"
+                    height="55" />
+                <button
+                    caption=","
+                    code="51"
+                    width="50"
+                    height="55" />
+            </row>
+            <row>
+                <button
+                    caption="⇧"
+                    code="58"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="Z"
+                    code="44"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="X"
+                    code="45"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="C"
+                    code="46"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="V"
+                    code="47"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="B"
+                    code="48"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="N"
+                    code="49"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="M"
+                    code="50"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="SPACE"
+                    code="57"
+                    width="100"
+                    height="55" />
+            </row>
+            <row>
+                <button
+                    caption="+ESC"
+                    code="64"
+                    width="90"
+                    height="55" />
+                <button
+                    caption="1"
+                    code="2"
+                    width="90"
+                    height="55" />
+                <button
+                    caption="2"
+                    code="3"
+                    width="90"
+                    height="55" />
+                <button
+                    caption="3"
+                    code="4"
+                    width="90"
+                    height="55" />
+                <button
+                    caption="←"
+                    code="14"
+                    width="80"
+                    height="55" />
+            </row>
+            <row>
+                <button
+                    caption="⇥"
+                    code="15"
+                    width="80"
+                    height="55" />
+                <button
+                    caption="4"
+                    code="5"
+                    width="90"
+                    height="55" />
+                <button
+                    caption="5"
+                    code="6"
+                    width="90"
+                    height="55" />
+                <button
+                    caption="6"
+                    code="7"
+                    width="90"
+                    height="55" />
+                <button
+                    caption="ENTER"
+                    code="28"
+                    width="80"
+                    height="80" />
+            </row>
+            <row>
+                <button
+                    caption="Esc"
+                    code="1"
+                    width="80"
+                    height="60" />
+                <button
+                    caption="7"
+                    code="8"
+                    width="90"
+                    height="55" />
+                <button
+                    caption="8"
+                    code="9"
+                    width="90"
+                    height="55" />
+                <button
+                    caption="9"
+                    code="10"
+                    width="90"
+                    height="55" />
+            </row>
+            <row>
+                <button
+                    caption="*"
+                    code="66"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="-"
+                    code="12"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="0"
+                    code="11"
+                    width="90"
+                    height="55" />
+                <button
+                    caption="."
+                    code="52"
+                    width="50"
+                    height="55" />
+                <button
+                    caption="#"
+                    code="67"
+                    width="50"
+                    height="55" />
+            </row>
+            <row>
+                <button
+                    caption="RightUp"
+                    code="64"
+                    width="100"
+                    height="60" />
+                <button
+                    caption="RightDown"
+                    code="65"
+                    width="100"
+                    height="60" />
+                <button
+                    caption="LeftUp"
+                    code="68"
+                    width="100"
+                    height="60" />
+                <!--<button caption="LeftDown" code="52" width="55" height="60"/>-->
+            </row>
+
+        </center>
+        <right
+            width="30"
+            height="30"></right>
+    </CN75EQ6>
+
+    <CK75AA6>
+        <time_out value="60" />
+        <top
+            width="30"
+            height="30"></top>
+        <left
+            width="30"
+            height="30"></left>
+        <center
+            width="30"
+            height="30">
+            <row>
+                <button
+                    caption="⇥"
+                    code="15"
+                    width="70"
+                    height="42" />
+                <!--<button caption="scanner" -->
+                <button
+                    caption="←"
+                    code="14"
+                    width="50"
+                    height="42" />
+                <button
+                    caption="+F1"
+                    code="64"
+                    width="65"
+                    height="55" />
+                <button
+                    caption="^"
+                    code="103"
+                    width="60"
+                    height="42" />
+                <button
+                    caption="+Space"
+                    code="12"
+                    width="100"
+                    height="55" />
+            </row>
+            <row>
+                <button
+                    caption="FidExit"
+                    code="45"
+                    width="100"
+                    height="42" />
+                <button
+                    caption="＜"
+                    code="105"
+                    width="60"
+                    height="42" />
+                <button
+                    caption="v"
+                    code="108"
+                    width="60"
+                    height="42" />
+                <button
+                    caption="＞"
+                    code="106"
+                    width="60"
+                    height="42" />
+
+                <button
+                    caption="Esc"
+                    code="1"
+                    width="60"
+                    height="42" />
+            </row>
+            <row>
+                <button
+                    caption="F1"
+                    code="59"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="7"
+                    code="8"
+                    width="100"
+                    height="40" />
+                <button
+                    caption="8"
+                    code="9"
+                    width="100"
+                    height="40" />
+                <button
+                    caption="9"
+                    code="10"
+                    width="100"
+                    height="40" />
+            </row>
+            <row>
+                <!--<button caption="F2" code="60" width="60" height="55"/>-->
+                <button
+                    caption="4"
+                    code="5"
+                    width="100"
+                    height="40" />
+                <button
+                    caption="5"
+                    code="6"
+                    width="100"
+                    height="40" />
+                <button
+                    caption="6"
+                    code="7"
+                    width="100"
+                    height="40" />
+            </row>
+            <row>
+                <button
+                    caption="F3"
+                    code="61"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="1"
+                    code="2"
+                    width="100"
+                    height="40" />
+                <button
+                    caption="2"
+                    code="3"
+                    width="100"
+                    height="40" />
+                <button
+                    caption="3"
+                    code="4"
+                    width="100"
+                    height="40" />
+            </row>
+            <row>
+                <!--<button caption="F4" code="62" width="60" height="55"/>-->
+                <button
+                    caption="."
+                    code="52"
+                    width="100"
+                    height="40" />
+                <button
+                    caption="0"
+                    code="11"
+                    width="100"
+                    height="40" />
+                <button
+                    caption="Enter"
+                    code="28"
+                    width="100"
+                    height="40" />
+            </row>
+            <row>
+                <button
+                    caption="F5"
+                    code="63"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="⇧"
+                    code="58"
+                    width="60"
+                    height="55" />
+                <button
+                    caption="Ctrl"
+                    code="29"
+                    width="80"
+                    height="40" />
+                <button
+                    caption="Space"
+                    code="57"
+                    width="100"
+                    height="40" />
+            </row>
+            <row>
+                <button
+                    caption="A"
+                    code="30"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="B"
+                    code="48"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="C"
+                    code="46"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="D"
+                    code="32"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="E"
+                    code="18"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="F"
+                    code="33"
+                    width="60"
+                    height="40" />
+            </row>
+            <row>
+                <button
+                    caption="G"
+                    code="34"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="H"
+                    code="35"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="I"
+                    code="23"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="J"
+                    code="36"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="K"
+                    code="37"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="L"
+                    code="38"
+                    width="60"
+                    height="40" />
+            </row>
+            <row>
+                <button
+                    caption="M"
+                    code="50"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="N"
+                    code="49"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="O"
+                    code="24"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="P"
+                    code="25"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="Q"
+                    code="16"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="R"
+                    code="19"
+                    width="60"
+                    height="40" />
+            </row>
+            <row>
+                <button
+                    caption="S"
+                    code="31"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="T"
+                    code="20"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="U"
+                    code="22"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="V"
+                    code="47"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="W"
+                    code="17"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="X"
+                    code="45"
+                    width="60"
+                    height="40" />
+            </row>
+            <row>
+                <!--<button caption="POWER" -->
+                <!--<button caption="?" code="29" width="60" height="55"/>-->
+                <button
+                    caption="Y"
+                    code="21"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="Z"
+                    code="44"
+                    width="60"
+                    height="40" />
+                <button
+                    caption="RightUp"
+                    code="64"
+                    width="100"
+                    height="42" />
+                <button
+                    caption="RightDown"
+                    code="65"
+                    width="120"
+                    height="42" />
+                <button
+                    caption="LeftUp"
+                    code="68"
+                    width="100"
+                    height="42" />
+                <!--<button caption="LeftDown" code="52" width="55" height="60"/>-->
+            </row>
+        </center>
+        <right
+            width="30"
+            height="30"></right>
+    </CK75AA6>
+
+    <CK75AB6>
+        <time_out value="60" />
+        <top
+            width="30"
+            height="30"></top>
+        <left
+            width="30"
+            height="30"></left>
+        <center
+            width="30"
+            height="30">
+            <!--<row>-->
+            <!--<button caption="⇥" code="42" width="60" height="55"/>-->
+            <!--<button caption="scanner" code="61" width="60" height="55"-->
+            <!--<button caption="←" code="14" width="60" height="55"/> -->
+            <!--</row>-->
+            <row>
+                <!-- <button caption="shift_yellow" code="61" width="60" height="55" -->
+                <button
+                    caption="＜"
+                    code="105"
+                    width="60"
+                    height="55" />
+                <button
+                    caption="^"
+                    code="103"
+                    width="100"
+                    height="55" />
+                <button
+                    caption="＞"
+                    code="106"
+                    width="60"
+                    height="55" />
+                <!--<button caption="shift_green" code="14" width="60" height="55"-->
+            </row>
+            <row>
+                <!--<button caption="FidExit" code="61" width="100" height="55"/> -->
+                <button
+                    caption="v"
+                    code="108"
+                    width="60"
+                    height="55" />
+                <button
+                    caption="Enter"
+                    code="28"
+                    width="100"
+                    height="55" />
+            </row>
+            <row>
+                <button
+                    caption="7"
+                    code="8"
+                    width="80"
+                    height="55" />
+                <button
+                    caption="8"
+                    code="9"
+                    width="80"
+                    height="55" />
+                <button
+                    caption="9"
+                    code="10"
+                    width="80"
+                    height="55" />
+                <button
+                    caption="⇧"
+                    code="10"
+                    width="80"
+                    height="50" />
+            </row>
+            <row>
+                <button
+                    caption="4"
+                    code="5"
+                    width="80"
+                    height="55" />
+                <button
+                    caption="5"
+                    code="6"
+                    width="80"
+                    height="55" />
+                <button
+                    caption="6"
+                    code="7"
+                    width="80"
+                    height="55" />
+                <button
+                    caption="Esc"
+                    code="1"
+                    width="80"
+                    height="55" />
+            </row>
+            <row>
+                <button
+                    caption="1"
+                    code="2"
+                    width="80"
+                    height="55" />
+                <button
+                    caption="2"
+                    code="3"
+                    width="80"
+                    height="55" />
+                <button
+                    caption="3"
+                    code="4"
+                    width="80"
+                    height="55" />
+                <button
+                    caption="Space"
+                    code="57"
+                    width="100"
+                    height="55" />
+            </row>
+            <row>
+                <button
+                    caption="."
+                    code="52"
+                    width="80"
+                    height="55" />
+                <button
+                    caption="0"
+                    code="11"
+                    width="80"
+                    height="55" />
+                <button
+                    caption="-"
+                    code="52"
+                    width="80"
+                    height="55" />
+                <button
+                    caption="Enter"
+                    code="28"
+                    width="100"
+                    height="55" />
+            </row>
+            <!--<row >-->
+            <button
+                caption="F1"
+                code="59"
+                width="80"
+                height="55" />
+            <button
+                caption="F2"
+                code="60"
+                width="80"
+                height="55" />
+            <!--<button caption="F3" code="61" width="80" height="55"/>-->
+            <!--<button caption="F4" code="62" width="80" height="55"/>-->
+            <!--</row>-->
+            <!--<row>-->
+            <!--<button caption="F5" code="63" width="80" height="55"/>-->
+            <!--<button caption="F6" code="64" width="80" height="55"/>-->
+            <!--<button caption="F7" code="65" width="80" height="55"/>-->
+            <!--<button caption="F8" code="66" width="80" height="55"/>-->
+            <!--</row>-->
+            <!--<row>-->
+            <!--<button caption="F9" code="67" width="80" height="55"/>-->
+            <!--<button caption="F10" code="68" width="80" height="55"/>-->
+            <!--<button caption="F11" code="68" width="80" height="55"/>-->
+            <!--<button caption="F12" code="68" width="80" height="55"/>-->
+            <!--</row>-->
+            <!--<row>-->
+            <!--<button caption="POWER" code="68" width="60" height="21"/> -->
+            <!--<button caption="?" code="29" width="50" height="55"/>-->
+            <!--<button caption="Ctrl" code="29" width="80" height="55"/>-->
+            <!--<button caption="Alt" code="61" width="80" height="55"/>-->
+            <!--</row>-->
+        </center>
+        <right
+            width="30"
+            height="30"></right>
+    </CK75AB6>
+</mfg-settings>

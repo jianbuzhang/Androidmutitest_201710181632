@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="usi.tdd.androidmutitest.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keypad"
+            android:id="@+id/BtnKeyPad"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:onClick="alertDialog_keypad" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vibrator"
+            android:id="@+id/BtnVibrate"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:onClick="button_vibrator" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPS"
+            android:id="@+id/BtnGps"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:onClick="alertDialog_GPS" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speaker"
+            android:id="@+id/BtnSpkTest"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:onClick="alertDialog_speaker" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Receiver"
+            android:id="@+id/BtnRcvTest"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:onClick="alertDialog_receiver" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Microphone"
+            android:id="@+id/BtnMicTest"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:onClick="alertDialog_microphone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SystemSize"
+            android:id="@+id/BtnSysSize"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:onClick="alertDialog_systemSize" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FileAccess"
+            android:id="@+id/BtnFileAccess"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:onClick="alertDialog_fileAccess" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Barcode"
+            android:id="@+id/BtnBarcode"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:onClick="alertDialog_barcode" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPS"
+            android:id="@+id/GPS"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:onClick="alertDialog_GPSt" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextScanInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.77"
+        android:ems="10"
+        android:hint="Scan Input"
+        android:inputType="text" />
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow
+        android:id="@+id/burnin_tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:layout_weight="1.08" >
+
+        <TextView
+            android:id="@+id/burnin_tV_LoopCount"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/burnin_tV_RunTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="7.57"
+        android:drawSelectorOnTop="true"
+        android:stackFromBottom="true"
+        android:transcriptMode="normal" >
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/burnin_checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="SelectAll" />
+
+        <Button
+            android:id="@+id/burnin_btn_Stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/burnin_btn_Test"
+            android:layout_alignBottom="@+id/burnin_btn_Test"
+            android:layout_toRightOf="@+id/burnin_btn_Test"
+            android:text="Stop" />
+
+        <Button
+            android:id="@+id/burnin_btn_Test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/burnin_checkBox1"
+            android:text="Test" />
+
+        <Button
+            android:id="@+id/burnin_btn_Exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/burnin_btn_Stop"
+            android:text="Exit" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/burnin_userText"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:ems="10"
+        android:text="EditText" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>

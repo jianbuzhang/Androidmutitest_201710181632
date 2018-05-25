@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="usi.tdd.androidmutitest.MainActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/BtnKeyPad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:enabled="false"
+            android:onClick="alertDialog_keypad"
+            android:text="Keypad"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/BtnVibrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:enabled="false"
+            android:onClick="button_vibrator"
+            android:text="Vibrator"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/BtnGps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:enabled="false"
+            android:onClick="alertDialog_GPS"
+            android:text="GPS"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/BtnSpkTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:enabled="false"
+            android:onClick="alertDialog_speaker"
+            android:text="Speaker"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/BtnRcvTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:enabled="false"
+            android:onClick="alertDialog_receiver"
+            android:text="Receiver"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/BtnMicTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:enabled="false"
+            android:onClick="alertDialog_microphone"
+            android:text="Microphone"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/BtnSysSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:enabled="false"
+            android:onClick="alertDialog_systemSize"
+            android:text="SystemSize"
+            android:visibility="invisible" />
+
+
+        <Button
+            android:id="@+id/BtnFileAccess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:enabled="false"
+            android:onClick="alertDialog_fileAccess"
+            android:text="FileAccess"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</LinearLayout>
